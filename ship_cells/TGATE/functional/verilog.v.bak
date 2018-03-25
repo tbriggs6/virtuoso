@@ -1,0 +1,10 @@
+//Verilog HDL for "ship_cells", "TGATE" "functional"
+
+
+module TGATE ( Y, A, An, B );
+
+  input A;
+  input An;
+  output Y;
+  input B;
+endmodule

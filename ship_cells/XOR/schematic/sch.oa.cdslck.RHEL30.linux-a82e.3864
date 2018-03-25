@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      cadence
+HostName                       linux-a82e
+ProcessIdentifier              3864
+ProcessCreationTime_UTC        1521742406
+ProcessCreationTime_Readable   Thu Mar 22 14:13:26 2018 EDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/cadence/briggs_libs/ship_cells/XOR/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Thu Mar 22 14:15:12 2018 EDT

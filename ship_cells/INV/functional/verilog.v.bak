@@ -1,0 +1,8 @@
+//Verilog HDL for "ship_cells", "INV" "functional"
+
+
+module INV ( Y, X );
+
+  output Y;
+  input X;
+endmodule
