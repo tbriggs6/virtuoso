@@ -1,0 +1,22 @@
+//Template for the constraints file (gcfConstraints.gcf)
+(GCF
+  (HEADER
+    (VERSION "1.2")
+    (DESIGN "ccadc")
+    (TIME_SCALE 1.0E-09)
+  )
+  (GLOBALS
+    (GLOBALS_SUBSET ENVIRONMENT
+      (OPERATING_CONDITIONS "" 1.00 3.13 100.00)
+      (EXTENSION "CTLF_FILES" ("../../../../mixSigLib/timing.ctlf"))
+      (VOLTAGE_THRESHOLD 10.0 90.0)
+    )
+  )
+  (CELL ()
+    (SUBSET TIMING
+      (ENVIRONMENT
+        (INPUT_SLEW 1.60 1.60)
+      )
+    )
+  )
+)

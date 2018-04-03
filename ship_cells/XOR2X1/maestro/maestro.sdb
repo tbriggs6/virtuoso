@@ -6,40 +6,43 @@
 		</corners>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>ship_cells:TGATE:1
+			<test>ship_cells:XOR2X1:1
 				<tool>ADE</tool>
 				<tooloptions>
-					<option>cell
-						<value>TGATE</value>
-					</option>
-					<option>lib
-						<value>ship_cells</value>
-					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR</value>
 					</option>
 					<option>sim
 						<value>spectre</value>
 					</option>
-					<option>view
-						<value>schematic</value>
-					</option>
 					<option>state
 						<value>active</value>
 					</option>
-				</tooloptions>
-				<origoptions>
 					<option>cell
-						<value>TGATE</value>
+						<value>XOR2X1</value>
 					</option>
 					<option>lib
 						<value>ship_cells</value>
 					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</tooloptions>
+				<origoptions>
 					<option>path
-						<value>$AXL_SETUPDB_DIR/test_states</value>
+						<value>$AXL_SETUPDB_DIR</value>
 					</option>
 					<option>sim
-						<value>hspiceD</value>
+						<value>spectre</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+					<option>cell
+						<value>XOR2X1</value>
+					</option>
+					<option>lib
+						<value>ship_cells</value>
 					</option>
 					<option>view
 						<value>schematic</value>
@@ -56,8 +59,9 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">ship_cells:TGATE:1</test>
+			<test netlist="0" netlistscope="all">ship_cells:XOR:1</test>
 		</checksasserts>
+		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 		<plottingoptions>
 			<plottingoption>plottype
 				<value>None</value>
@@ -80,7 +84,6 @@
 			<reusenetlist>0</reusenetlist>
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
-		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 	</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
@@ -90,40 +93,43 @@
 				</corners>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test>ship_cells:TGATE:1
+					<test>ship_cells:XOR2X1:1
 						<tool>ADE</tool>
 						<tooloptions>
-							<option>cell
-								<value>TGATE</value>
-							</option>
-							<option>lib
-								<value>ship_cells</value>
-							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
 							</option>
 							<option>sim
 								<value>spectre</value>
 							</option>
-							<option>view
-								<value>schematic</value>
-							</option>
 							<option>state
 								<value>ExplorerRun.0</value>
 							</option>
-						</tooloptions>
-						<origoptions>
 							<option>cell
-								<value>TGATE</value>
+								<value>XOR2X1</value>
 							</option>
 							<option>lib
 								<value>ship_cells</value>
 							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<origoptions>
 							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
+								<value>$AXL_SETUPDB_DIR</value>
 							</option>
 							<option>sim
-								<value>hspiceD</value>
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>active</value>
+							</option>
+							<option>cell
+								<value>XOR2X1</value>
+							</option>
+							<option>lib
+								<value>ship_cells</value>
 							</option>
 							<option>view
 								<value>schematic</value>
@@ -140,8 +146,9 @@
 				</extensions>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">ship_cells:TGATE:1</test>
+					<test netlist="0" netlistscope="all">ship_cells:XOR:1</test>
 				</checksasserts>
+				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 				<plottingoptions>
 					<plottingoption>plottype
 						<value>Auto</value>
@@ -218,28 +225,27 @@
 					<reusenetlist>0</reusenetlist>
 					<copyreferenceresults>1</copyreferenceresults>
 				</incrementalsimsetup>
-				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 				<runnabletests>
-					<test>ship_cells:TGATE:1</test>
+					<test>ship_cells:XOR:1</test>
 				</runnabletests>
 				<disabledtests></disabledtests>
 				<vars></vars>
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 22 10:08:48 2018</timestamp>
-			<resultsname>/home/cadence/briggs_libs/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<timestamp>Mar 22 14:18:39 2018</timestamp>
+			<resultsname>/home/cadence/briggs_libs/ship_cells/XOR2X1/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/linux-a82e_cadence_100848644</localpsfdir>
-			<psfdir>/home/cadence/cadence/simulation/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0</simdir>
+			<localpsfdir>/tmp/linux-a82e_cadence_141839970</localpsfdir>
+			<psfdir>/home/cadence/cadence/simulation/ship_cells/XOR2X1/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>/home/cadence/cadence/simulation/ship_cells/XOR2X1/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/briggs_libs/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<runlog>/home/cadence/briggs_libs/ship_cells/XOR2X1/maestro/results/maestro/ExplorerRun.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>

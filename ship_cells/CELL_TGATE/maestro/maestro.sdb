@@ -228,7 +228,7 @@
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
 			<timestamp>Mar 22 10:08:48 2018</timestamp>
-			<resultsname>/home/cadence/briggs_libs/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<resultsname></resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
@@ -236,10 +236,10 @@
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
 			<localpsfdir>/tmp/linux-a82e_cadence_100848644</localpsfdir>
-			<psfdir>/home/cadence/cadence/simulation/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0</simdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/briggs_libs/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<runlog></runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>

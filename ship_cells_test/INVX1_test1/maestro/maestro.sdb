@@ -6,23 +6,23 @@
 		</corners>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>ship_cells:TGATE:1
+			<test>ship_cells_test:INVX1_test1:1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>TGATE</value>
+						<value>INVX1_test1</value>
 					</option>
 					<option>lib
-						<value>ship_cells</value>
+						<value>ship_cells_test</value>
+					</option>
+					<option>sim
+						<value>ams</value>
+					</option>
+					<option>view
+						<value>config</value>
 					</option>
 					<option>path
 						<value>$AXL_SETUPDB_DIR</value>
-					</option>
-					<option>sim
-						<value>spectre</value>
-					</option>
-					<option>view
-						<value>schematic</value>
 					</option>
 					<option>state
 						<value>active</value>
@@ -30,19 +30,16 @@
 				</tooloptions>
 				<origoptions>
 					<option>cell
-						<value>TGATE</value>
+						<value>INVX1_test1</value>
 					</option>
 					<option>lib
-						<value>ship_cells</value>
-					</option>
-					<option>path
-						<value>$AXL_SETUPDB_DIR/test_states</value>
+						<value>ship_cells_test</value>
 					</option>
 					<option>sim
-						<value>hspiceD</value>
+						<value>ams</value>
 					</option>
 					<option>view
-						<value>schematic</value>
+						<value>config</value>
 					</option>
 				</origoptions>
 			</test>
@@ -56,7 +53,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">ship_cells:TGATE:1</test>
+			<test netlist="0" netlistscope="all">ship_cells_test:INVX1_test1:1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>plottype
@@ -90,23 +87,23 @@
 				</corners>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test>ship_cells:TGATE:1
+					<test>ship_cells_test:INVX1_test1:1
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
-								<value>TGATE</value>
+								<value>INVX1_test1</value>
 							</option>
 							<option>lib
-								<value>ship_cells</value>
+								<value>ship_cells_test</value>
+							</option>
+							<option>sim
+								<value>ams</value>
+							</option>
+							<option>view
+								<value>config</value>
 							</option>
 							<option>path
 								<value>$AXL_SETUPDB_DIR/test_states</value>
-							</option>
-							<option>sim
-								<value>spectre</value>
-							</option>
-							<option>view
-								<value>schematic</value>
 							</option>
 							<option>state
 								<value>ExplorerRun.0</value>
@@ -114,19 +111,16 @@
 						</tooloptions>
 						<origoptions>
 							<option>cell
-								<value>TGATE</value>
+								<value>INVX1_test1</value>
 							</option>
 							<option>lib
-								<value>ship_cells</value>
-							</option>
-							<option>path
-								<value>$AXL_SETUPDB_DIR/test_states</value>
+								<value>ship_cells_test</value>
 							</option>
 							<option>sim
-								<value>hspiceD</value>
+								<value>ams</value>
 							</option>
 							<option>view
-								<value>schematic</value>
+								<value>config</value>
 							</option>
 						</origoptions>
 					</test>
@@ -140,7 +134,7 @@
 				</extensions>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">ship_cells:TGATE:1</test>
+					<test netlist="0" netlistscope="all">ship_cells_test:INVX1_test1:1</test>
 				</checksasserts>
 				<plottingoptions>
 					<plottingoption>plottype
@@ -153,7 +147,7 @@
 						<value>no</value>
 					</plottingoption>
 					<plottingoption>waveformtemplate
-						<value></value>
+						<value>                            </value>
 					</plottingoption>
 					<plottingoption>autoplotsignals
 						<value>yes</value>
@@ -220,26 +214,26 @@
 				</incrementalsimsetup>
 				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 				<runnabletests>
-					<test>ship_cells:TGATE:1</test>
+					<test>ship_cells_test:INVX1_test1:1</test>
 				</runnabletests>
 				<disabledtests></disabledtests>
 				<vars></vars>
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 22 10:08:48 2018</timestamp>
-			<resultsname>/home/cadence/briggs_libs/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<timestamp>Apr 3 17:36:48 2018</timestamp>
+			<resultsname>/home/cadence/briggs_libs/ship_cells_test/INVX1_test1/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/linux-a82e_cadence_100848644</localpsfdir>
-			<psfdir>/home/cadence/cadence/simulation/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0</simdir>
+			<localpsfdir>/tmp/linux-8fs2_cadence_173648322</localpsfdir>
+			<psfdir>/home/cadence/cadence/simulation/ship_cells_test/INVX1_test1/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/ship_cells_test/INVX1_test1/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
-			<runlog>/home/cadence/briggs_libs/ship_cells/TGATE/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<runlog>/home/cadence/briggs_libs/ship_cells_test/INVX1_test1/maestro/results/maestro/ExplorerRun.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>

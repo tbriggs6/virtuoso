@@ -1,0 +1,56 @@
+//Verilog-AMS HDL for "ship_cells_test", "INVX1_test1" "verilogams"
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module INVX1_test1 (x,y);
+
+	electrical ay, ax;
+
+	electrical (* integer inh_conn_prop_name = "ggnd"; integer inh_conn_def_value = "cds_globals.\\gnd! ";*) \gnd! ;
+	electrical (* integer inh_conn_prop_name = "gpwr"; integer inh_conn_def_value = "cds_globals.\\vdd! ";*) \vdd! ;
+
+	ground \gnd! ;
+
+	output y;
+	output x;
+
+	reg y;
+	reg x;
+
+
+	INVX1 i0( .X(ax), .Y(ay), .\vdd! ( \vdd! ), .\gnd! ( \gnd! ) );
+
+
+
+	always @(cross(V(ay) - 0.5, -1))
+		y = 0;
+
+	always @(cross(V(ay) - 1.2, +1))
+		y = 1;
+
+
+	analog begin
+		V( \vdd! ) <+ 1.8;
+		V(ax) <+ (x == 1) ? 1.8 : 0;
+	end
+
+
+	initial begin
+		x = 0;
+		y = 1;
+
+		#200;  // 200ns
+		if (y != 1) 
+			$stop;
+
+		x = 1;
+		#200;
+		if (y != 0)
+			$stop;
+
+		$finish;
+	end
+
+
+endmodule
